@@ -49,7 +49,7 @@ sub find_orfs {
                     last;
                 }
 
-                my $aa = $code{$codon} || 'X';  # X για άγνωστα
+                my $aa = $code{$codon} || 'X'; 
                 $protein .= "-$aa";
                 
             }
